@@ -1,0 +1,69 @@
+{
+  "todo": [
+    {
+      "id": "1",
+      "title": "Learn JavaScript",
+      "status": "todo",
+      "duedate": "2023-02-03",
+      "description": "Learn JavaScript basics",
+      "assignedUser": "1",
+      "priority": "high",
+      "tags": []
+    },
+    {
+      "id": "2",
+      "title": "Learn React Js",
+      "description": "Learn React Js Basics",
+      "duedate": "2025-02-19",
+      "status": "todo",
+      "assignedUser": "5",
+      "priority": "medium"
+    },
+    {
+      "id": "3",
+      "title": "Learn Python",
+      "description": "Learn Python basics",
+      "duedate": "2025-02-28",
+      "status": "todo",
+      "assignedUser": "5",
+      "priority": "low"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Jean Doe",
+      "email": "jean@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Bean Doe",
+      "email": "bean@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Dean Doe",
+      "email": "dean@example.com"
+    },
+    {
+      "id": "5",
+      "name": "Sam Doe",
+      "email": "dean@example.com"
+    }
+  ],
+  "auth": [
+    {
+      "username": "admin",
+      "password": "123"
+    },
+    {
+      "username": "shakila sekar",
+      "password": "123"
+    }
+  ]
+}

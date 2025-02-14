@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    font-family: "Roboto", serif;
+}
+
+.dudate{
+    color: rgb(158, 156, 156);
+}
+.cardhead{
+    font-family: "Pacifico", serif;
+    font-size: 20px;
+}
+.todohead{
+    font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.username{
+    font-size: 25px;
+    font-family: "Pacifico", serif;
+    color: white;
+    width: 200px !important;
+}
+.todolist{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.formdiv label{
+    width: 200px;
+    font-size: 15px;
+    color: #b0b4be;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+}
+
+.addupbutton{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.containerdiv{
+    /* background-color: #255a77; */
+    background-image: url('../assets/image.jpeg');
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    background-size: cover;        /* Makes the image cover the entire container */
+    background-position: center;   /* Centers the image in the container */
+    width: 100%;
+    overflow: scroll;
+    height: 100vh;
+}
+
+.todotitle{
+font-size: 19px;
+font-weight: 600;
+}
+
